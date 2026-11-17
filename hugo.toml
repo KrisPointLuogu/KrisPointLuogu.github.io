@@ -1,0 +1,90 @@
+baseURL: https://yourname.github.io/  # 改成你的域名
+languageCode: zh-cn
+title: KrisPoint
+theme: PaperMod
+
+enableEmoji: true
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+languages:
+  zh:
+    languageName: "中文"
+weight: 1
+
+params:
+  author: "你的名字"
+description: "你的网站描述"
+ShowReadingTime: true      # 显示阅读时间ShowShareButtons: true     # 显示分享按钮ShowPostNavLinks: true     # 显示上一篇/下一篇ShowBreadCrumbs: true      # 显示面包屑导航ShowCodeCopyButtons: true  # 显示代码复制按钮ShowWordCount: true        # 显示字数统计ShowRssButtonInSectionTermList: true
+# 启用 emoji 支持
+# 启用 robots.txt
+# 每页显示的文章数
+# 语言设置
+# PaperMod 主题配置
+# 基础信息
+# 显示设置
+# 首页模式（三选一）
+# homeInfoParams:          # Home-Info 模式
+#   Title: "欢迎来到我的博客"
+#   Content: "这里是描述文字"
+
+profileMode:                # Profile 模式（我选的这个）
+    enabled: true
+title: "My Wilderness"    # 主标题
+subtitle: "记录、思考、探索"
+imageUrl: "/images/avatar.jpg"  # 头像路径
+imageWidth: 120
+imageHeight: 120
+buttons:
+      - name: 旷野
+url: /posts/
+- name: 关于
+url: /about/
+
+socialIcons:
+    - name: github
+url: "https://github.com/yourname"
+title: "访问我的 GitHub"
+- name: email
+url: "mailto:your@email.com"
+title: "发送邮件给我"
+
+menu:
+  main:
+    - identifier: posts
+name: 随笔
+      url: /posts/
+weight: 10
+- identifier: notes
+name: 笔记
+      url: /notes/
+weight: 20
+- identifier: photography
+name: 摄影
+      url: /photography/
+weight: 30
+- identifier: about
+name: 关于
+      url: /about/
+weight: 40
+- identifier: archives
+name: 归档
+      url: /archives/
+weight: 50
+- identifier: search
+name: 搜索
+      url: /search/
+weight: 60
+
+outputs:
+  home:
+    - HTML
+- RSS
+- JSON
+
+# 社交图标
+# 菜单配置
+# 输出格式（用于搜索功能）
