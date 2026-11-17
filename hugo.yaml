@@ -16,7 +16,7 @@ languages:
 
 params:
   author: KrisPoint
-  description: 旷野
+  description: KrisPoint的个人blog和随笔
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -29,7 +29,7 @@ params:
     enabled: true
     title: My Wilderness
     subtitle: 记录、思考、探索
-    imageUrl: /images/avatar.jpg
+    imageUrl: /images/avatar.png
     imageWidth: 120
     imageHeight: 120
     buttons:
@@ -42,7 +42,7 @@ params:
     - name: github
       url: https://github.com/KrisPointLuogu
     - name: email
-      url: mailto:your@email.com
+      url: 3631313260@qq.com
 
 menu:
   main:
@@ -54,9 +54,9 @@ menu:
       name: 笔记
       url: /notes/
       weight: 20
-    - identifier: photography
-      name: 摄影
-      url: /photography/
+    - identifier: goals
+      name: 目标
+      url: /goals/
       weight: 30
     - identifier: about
       name: 关于
