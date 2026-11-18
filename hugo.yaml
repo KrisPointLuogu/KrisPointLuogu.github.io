@@ -76,3 +76,15 @@ outputs:
     - HTML
     - RSS
     - JSON
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
